@@ -1,0 +1,23 @@
+{
+  "name": "eslint-prettier",
+  "version": "0.1.0",
+  "description": "ESLint and Prettier Setup."
+  "main": "",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . || true",
+    "lint-fix": "./node_modules/.bin/eslint . --fix || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:ioiooi/eslint-prettier.git"
+  },
+  "author": "Eugen Mayer",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "prettier": "^1.12.1"
+  }
+}
