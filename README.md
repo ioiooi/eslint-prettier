@@ -20,6 +20,8 @@ Prettier formatting looks better than ESLint.
 
 ## eslintrc config
 
+import/export and async/await and support for other newer features
+
 ```json
 "parserOptions": {
   "sourceType": "module",
@@ -27,7 +29,7 @@ Prettier formatting looks better than ESLint.
 }
 ```
 
-import/export and async/await etc...
+React, ESLint defaults, [`eslint-plugin-prettier` and `eslint-config-prettier`](https://prettier.io/docs/en/eslint.html#why-not-both)
 
 ```json
 "extends": [
@@ -37,10 +39,8 @@ import/export and async/await etc...
 ]
 ```
 
-React, ESLint defaults, [`eslint-plugin-prettier` and `eslint-config-prettier`](https://prettier.io/docs/en/eslint.html#why-not-both)
+[Customize Prettier options.](https://github.com/prettier/eslint-plugin-prettier#options)
 
 ```json
 "prettier/prettier": ["error", { "singleQuote": true }]
 ```
-
-[Prettier options config](https://github.com/prettier/eslint-plugin-prettier#options)
