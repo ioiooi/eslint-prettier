@@ -1,4 +1,4 @@
-# Formatting and Code-quality
+# ESLint and Prettier
 
 ## Why ESLint and Prettier?
 
@@ -15,12 +15,12 @@ Prettier formatting looks better than ESLint.
     ESLint will run Prettier for you and will report formatting issues between your code and Prettiers configuration as ESLint issues.
 3.  `eslint-config-prettier` ([link](https://github.com/prettier/eslint-config-prettier))  
     Turns off all ESLint formatting rules that are unnecessary or might conflict with Prettier.
-4.  Optional: `eslint-plugin-react`  
-    React specific linting rules for ESLint.
+4.  _Optional: `eslint-plugin-react`  
+    React specific linting rules for ESLint._
 
 ## eslintrc config
 
-import/export and async/await and support for other newer features
+import/export, async/await and support for other newer features
 
 ```json
 "parserOptions": {
@@ -34,8 +34,7 @@ React, ESLint defaults, [`eslint-plugin-prettier` and `eslint-config-prettier`](
 ```json
 "extends": [
   "eslint:recommended",
-  "plugin:prettier/recommended",
-  "plugin:react/recommended"
+  "plugin:prettier/recommended"
 ]
 ```
 
